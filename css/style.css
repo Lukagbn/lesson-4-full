@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Archy EDT";
+  src: url("/archyedt-bold.otf") format("opentype");
+  font-weight: thin;
+  font-style: normal;
+}
+body {
+  font-family: "Archy EDT", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5rem;
+  margin-top: 52px;
+  margin-bottom: 60px;
+}
+ul {
+  list-style: none;
+}
+.nav-logo {
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+}
+header ul {
+  display: flex;
+  gap: 5em;
+  width: 100%;
+}
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: auto;
+}
+.w-100 {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+article img {
+  width: 100%;
+  object-fit: cover;
+}
+article {
+  max-width: 483px;
+  max-height: 563px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+article h2,
+article p,
+section h1 {
+  color: #707070;
+}
+article h2 {
+  margin-left: 12px;
+  margin-top: 20px;
+}
+section h1 {
+  margin-top: 138px;
+  margin-bottom: 70px;
+}
+article p {
+  font-size: 18px;
+}
+article a {
+  display: flex;
+  justify-content: right;
+  text-decoration: none;
+  color: #707070;
+  font-size: 24px;
+  padding-bottom: 35px;
+  padding-right: 13px;
+}
+.card-body {
+  margin-left: 12px;
+  margin-right: 25px;
+  margin-top: 33px;
+  margin-bottom: 73px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  gap: 6rem;
+}
+.load-more {
+  font-size: 30px;
+  margin-top: 56px;
+  margin-bottom: 53px;
+  text-align: center;
+}
+.load-more a {
+  color: #707070;
+  text-decoration: none;
+  border-bottom: 1px solid #707070;
+}
+.last-added {
+  margin-top: 53px;
+  margin-bottom: 70px;
+}
+footer {
+  margin-top: 68px;
+  min-height: 206px;
+  background-color: #2e2e2e;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+footer .container nav ul li a.nav-logo {
+  color: #f2f2f2;
+}
+footer p {
+  font-size: 13px;
+}
+footer ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.media {
+  display: flex;
+  gap: 2rem;
+}
