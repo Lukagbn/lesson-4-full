@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Archy EDT";
-  src: url("/archyedt-bold.otf") format("opentype");
+  src: url("/fonts/archyedt-bold.otf") format("opentype");
   font-weight: thin;
   font-style: normal;
 }
@@ -48,32 +48,34 @@ header ul {
   object-fit: cover;
   display: block;
 }
-article img {
+.card img {
   width: 100%;
   object-fit: cover;
 }
-article {
+.card {
   max-width: 483px;
   max-height: 563px;
   box-shadow: 0px 3px 6px #00000029;
 }
-article h2,
-article p,
-section h1 {
+.card h2,
+.card p,
+.card h1 {
   color: #707070;
 }
-article h2 {
+.card h2 {
   margin-left: 12px;
   margin-top: 20px;
 }
 section h1 {
+  color: #707070;
   margin-top: 138px;
   margin-bottom: 70px;
 }
-article p {
+.card p {
+  font-family: sans-serif;
   font-size: 18px;
 }
-article a {
+.card a {
   display: flex;
   justify-content: right;
   text-decoration: none;
@@ -136,5 +138,5 @@ footer ul {
 }
 .media {
   display: flex;
-  gap: 2rem;
+  gap: 2em;
 }
